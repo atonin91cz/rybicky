@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+input,
+select {
+  margin: 5px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.page-toggler {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  background: #f8f9fa;
+  padding: 10px;
+  gap: 5px;
+}
+
+.page-toggler button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.page-toggler button.active {
+  background: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+.page-toggler button:hover {
+  background: #0056b3;
+  color: white;
+}
